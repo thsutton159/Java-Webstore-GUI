@@ -250,7 +250,7 @@ public class NileGUI extends JFrame{
 			itemQuantity = Integer.parseInt(qtyTextField.getText());
 			quantityStr = qtyTextField.getText();
 			
-			File inputFile = new File("src/inventory.csv");
+			File inputFile = new File("inventory.csv");
 			FileReader inputFileReader = null;
 			BufferedReader inputBuffReader = null;
 			Scanner aScanner = null;
@@ -611,7 +611,7 @@ public class NileGUI extends JFrame{
 			
 			LocalDateTime now = LocalDateTime.now();
 			
-			try (BufferedWriter out = new BufferedWriter(new FileWriter("src/transactions.csv", true))){
+			try (BufferedWriter out = new BufferedWriter(new FileWriter("transactions.csv", true))){
 				
 			    for(int i=0; i < itemCount; i++) {
 					String temp = String.join(", ", dtf.format(now), traCSVList[i], dtf2.format(now));
