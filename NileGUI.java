@@ -1,7 +1,6 @@
 /* Thomas Sutton
- * CNT 4714 - Fall 2024
- * Project 1 - An Event-driven Enterprise Simulation
- * Sunday September 8, 2024
+ * An Event-driven Enterprise Simulation
+ * Last Update: Wednesday, September 18, 2024
  */
 
 //imports that were necessary on my device
